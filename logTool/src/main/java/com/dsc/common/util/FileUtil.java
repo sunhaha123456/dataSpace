@@ -1,12 +1,11 @@
 package com.dsc.common.util;
 
 import com.dsc.common.data.vo.FileLineInfoVo;
-import lombok.extern.slf4j.Slf4j;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 
-@Slf4j
+//@Slf4j
 public class FileUtil {
 
 	public static FileLineInfoVo getFileFristLineAndEndLine(String filePath) {
